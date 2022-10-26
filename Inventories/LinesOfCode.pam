@@ -1,0 +1,5 @@
+Element,ProjectId,FileId,Count,Total Lines,Parsed Lines,Not Parsed Lines,Commented Lines,Blank Lines
+,Sources,/QT_Scala/src/main/scala/SessionDriver.scala,1,57,46,0,11,39
+,Sources,/QT_Scala/src/main/scala/Credentials.scala,1,10,10,0,0,0
+,Sources,/QT_Scala/src/main/scala/LinearRegression.scala,1,23,23,0,0,0
+,Sources,/QT_Scala/src/main/scala/Main.scala,1,194,194,0,0,688
