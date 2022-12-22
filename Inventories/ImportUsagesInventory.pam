@@ -1,8 +1,0 @@
-Element,ProjectId,FileId,Count,Alias,Kind,Line,PackageName,SessionId,SnowConvertCoreVersion,SnowparkVersion
-org.apache.spark.sql.DataFrame,Sources,QT_Scala/src/main/scala/SessionDriver.scala,1,,,4,com.mobilize.spark,ccf5025e-ef77-45b3-b4f0-b86245780a14,1.0.109.0,1.6.2
-org.apache.spark.sql.functions,Sources,QT_Scala/src/main/scala/Main.scala,1,_,,3,com.mobilize.spark,ccf5025e-ef77-45b3-b4f0-b86245780a14,1.0.109.0,1.6.2
-org.apache.spark.sql.SparkSession,Sources,QT_Scala/src/main/scala/SessionDriver.scala,1,,,4,com.mobilize.spark,ccf5025e-ef77-45b3-b4f0-b86245780a14,1.0.109.0,1.6.2
-org.apache.spark.sql.DataFrame,Sources,QT_Scala/src/main/scala/Main.scala,1,,,5,com.mobilize.spark,ccf5025e-ef77-45b3-b4f0-b86245780a14,1.0.109.0,1.6.2
-com.mobilize.spark.Credentials,Sources,QT_Scala/src/main/scala/SessionDriver.scala,1,_,,3,com.mobilize.spark,ccf5025e-ef77-45b3-b4f0-b86245780a14,1.0.109.0,1.6.2
-org.apache.spark.sql.Column,Sources,QT_Scala/src/main/scala/Main.scala,1,,,5,com.mobilize.spark,ccf5025e-ef77-45b3-b4f0-b86245780a14,1.0.109.0,1.6.2
-org.apache.spark.sql.types,Sources,QT_Scala/src/main/scala/Main.scala,1,_,,4,com.mobilize.spark,ccf5025e-ef77-45b3-b4f0-b86245780a14,1.0.109.0,1.6.2

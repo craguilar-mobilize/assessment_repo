@@ -1,5 +1,0 @@
-Element,ProjectId,FileId,Count
-com.mobilize.spark,Sources,QT_Scala/src/main/scala/Credentials.scala,1
-com.mobilize.spark,Sources,QT_Scala/src/main/scala/Main.scala,1
-com.mobilize.spark,Sources,QT_Scala/src/main/scala/SessionDriver.scala,1
-Regressions,Sources,QT_Scala/src/main/scala/LinearRegression.scala,1
