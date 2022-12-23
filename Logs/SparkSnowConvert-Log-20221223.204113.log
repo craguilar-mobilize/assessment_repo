@@ -1,0 +1,137 @@
+[12/23/2022 20:41:13] Debug: Session id: 19d3de9e-07ad-4c53-b3e7-ad4f0157ed5a
+[12/23/2022 20:41:13] Debug: Execution id: 04219b71-c56f-4294-a8f0-5b86398679f5
+[12/23/2022 20:41:13] Info: Starting to analyze the input path '/tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources'...
+[12/23/2022 20:41:13] Info: Found 4 SCALA files with a total size of 11.49KB
+[12/23/2022 20:41:13] Info: Found 0 GRADLE files
+[12/23/2022 20:41:13] Info: Found 1 SBT files with a total size of 0.58KB
+[12/23/2022 20:41:13] Info: Found 0 MAVEN files
+[12/23/2022 20:41:13] Info: Found 108 TOTAL files with a total size of 0.14MB
+[12/23/2022 20:41:13] Info: Starting process of 113 files with 0.15MB of code.
+[12/23/2022 20:41:15] Info: EFProcess 638074248749128485 started
+[12/23/2022 20:41:15] Debug: TaskParam customMapDirectoryPath = 
+[12/23/2022 20:41:15] Debug: TaskParam mappingDictionaries = Mobilize.SparkCommon.TransformationCore.MappingDictionaries
+[12/23/2022 20:41:15] Debug: TaskParam LoadMappingsTask.Enabled = True
+[12/23/2022 20:41:15] Debug: TaskParam Repository = Value is not created.
+[12/23/2022 20:41:15] Debug: TaskParam RepositoryDirectory = /tmp/Output-de187562-8228-4d2b-8f90-7088f45fbd63/.mobilize/CommonEF
+[12/23/2022 20:41:15] Debug: TaskParam codeModelWriter = Mobilize.Common.AssessmentModel.Writer.CodeModelWriter
+[12/23/2022 20:41:15] Debug: TaskParam dependenciesToAdd = libs/snowparkextensions-0.0.9.jar, com.snowflake:snowpark:1.6.0
+[12/23/2022 20:41:15] Debug: TaskParam dependenciesToRemove = org.apache.spark
+[12/23/2022 20:41:15] Debug: TaskParam excludedProjectFiles = *.xml, *.png, glacial.mobilize, *.scala, .wspark
+[12/23/2022 20:41:15] Debug: TaskParam ExecutionModeValue = Assessment
+[12/23/2022 20:41:15] Debug: TaskParam inputPath = /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources
+[12/23/2022 20:41:15] Debug: TaskParam outputPath = /tmp/Output-de187562-8228-4d2b-8f90-7088f45fbd63/Output/SparkSnowConvert
+[12/23/2022 20:41:15] Debug: TaskParam projectId = 
+[12/23/2022 20:41:15] Debug: TaskParam ProjectGenerationTask.Enabled = True
+[12/23/2022 20:41:15] Debug: TaskParam Repository = Value is not created.
+[12/23/2022 20:41:15] Debug: TaskParam RepositoryDirectory = /tmp/Output-de187562-8228-4d2b-8f90-7088f45fbd63/.mobilize/CommonEF
+[12/23/2022 20:41:15] Info: Step 2/9 - Generating project: STARTED
+[12/23/2022 20:41:15] Info: Step 2/9 - Generating project: COMPLETED
+[12/23/2022 20:41:15] Debug: TaskParam parsedFilesCount = 0
+[12/23/2022 20:41:15] Debug: TaskParam parsingProgressDescriptor = Mobilize.Common.Utils.Progress.SingleProgressDescriptor
+[12/23/2022 20:41:15] Debug: TaskParam processingProgressDescriptor = Mobilize.Common.Utils.Progress.SingleProgressDescriptor
+[12/23/2022 20:41:15] Debug: TaskParam linesOfCodeReportStorage = Mobilize.SparkSnow.Assessment.LinesOfCodeReportStorage
+[12/23/2022 20:41:15] Debug: TaskParam projectId = 
+[12/23/2022 20:41:15] Debug: TaskParam inputPath = /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources
+[12/23/2022 20:41:15] Debug: TaskParam filesToProcess = 
+[12/23/2022 20:41:15] Debug: TaskParam transformationVisitors = Value is not created.
+[12/23/2022 20:41:15] Debug: TaskParam ConversionBeginTask.Input = /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources/input.wsp
+[12/23/2022 20:41:15] Debug: TaskParam workingSet = Value is not created.
+[12/23/2022 20:41:15] Debug: TaskParam ConversionBeginTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[12/23/2022 20:41:15] Debug: TaskParam ConversionBeginTask.Enabled = True
+[12/23/2022 20:41:15] Debug: TaskParam Repository = Value is not created.
+[12/23/2022 20:41:15] Debug: TaskParam RepositoryDirectory = /tmp/Output-de187562-8228-4d2b-8f90-7088f45fbd63/.mobilize/CommonEF
+[12/23/2022 20:41:15] Info: Step 3/9 - Loading Code: STARTED
+[12/23/2022 20:41:15] Debug: Processing File: /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources/QT_Scala/src/main/scala/Credentials.scala
+[12/23/2022 20:41:15] Debug: Processing File: /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources/QT_Scala/src/main/scala/SessionDriver.scala
+[12/23/2022 20:41:15] Debug: Processing File: /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources/QT_Scala/src/main/scala/LinearRegression.scala
+[12/23/2022 20:41:15] Debug: Processing File: /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources/QT_Scala/src/main/scala/Main.scala
+[12/23/2022 20:41:15] Info: Step 3/9 - Loading Code: COMPLETED
+[12/23/2022 20:41:16] Debug: TaskParam codeModelWriter = Mobilize.Common.AssessmentModel.Writer.CodeModelWriter
+[12/23/2022 20:41:16] Debug: TaskParam inputPath = /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources
+[12/23/2022 20:41:16] Debug: TaskParam outputPath = /tmp/Output-de187562-8228-4d2b-8f90-7088f45fbd63/Output/SparkSnowConvert
+[12/23/2022 20:41:16] Debug: TaskParam projectId = Sources
+[12/23/2022 20:41:16] Debug: TaskParam ExecutionModeValue = Assessment
+[12/23/2022 20:41:16] Debug: TaskParam ParsingErrorsTask.Input = /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources/input.wsp
+[12/23/2022 20:41:16] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[12/23/2022 20:41:16] Debug: TaskParam ParsingErrorsTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[12/23/2022 20:41:16] Debug: TaskParam ParsingErrorsTask.Enabled = True
+[12/23/2022 20:41:16] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[12/23/2022 20:41:16] Debug: TaskParam RepositoryDirectory = /tmp/Output-de187562-8228-4d2b-8f90-7088f45fbd63/.mobilize/CommonEF
+[12/23/2022 20:41:16] Info: Step 4/9 - Parsing Errors: STARTED
+[12/23/2022 20:41:16] Info: Step 4/9 - Parsing Errors: COMPLETED
+[12/23/2022 20:41:16] Debug: TaskParam filesToProcess = /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources/QT_Scala/src/main/scala/Credentials.scala, /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources/QT_Scala/src/main/scala/SessionDriver.scala, /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources/QT_Scala/src/main/scala/LinearRegression.scala, /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources/QT_Scala/src/main/scala/Main.scala
+[12/23/2022 20:41:16] Debug: TaskParam projectId = Sources
+[12/23/2022 20:41:16] Debug: TaskParam inputPath = /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources
+[12/23/2022 20:41:16] Debug: TaskParam rootOutputPath = /tmp/Output-de187562-8228-4d2b-8f90-7088f45fbd63
+[12/23/2022 20:41:16] Debug: TaskParam shouldGenerateDump = False
+[12/23/2022 20:41:16] Debug: TaskParam codeModelWriter = Mobilize.Common.AssessmentModel.Writer.CodeModelWriter
+[12/23/2022 20:41:16] Debug: TaskParam SymbolTableLoaderTask.Enabled = True
+[12/23/2022 20:41:16] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[12/23/2022 20:41:16] Debug: TaskParam RepositoryDirectory = /tmp/Output-de187562-8228-4d2b-8f90-7088f45fbd63/.mobilize/CommonEF
+[12/23/2022 20:41:16] Info: Step 5/9 - Symbol Table Loading: STARTED
+[12/23/2022 20:41:18] Info: Step 5/9 - Loading spark symbols
+[12/23/2022 20:41:20] Error: Node of type 'Mobilize.Scala.AST.SclFunDcl' is not supported
+[12/23/2022 20:41:20] Error: Node of type 'Mobilize.Scala.AST.SclFunDcl' is not supported
+[12/23/2022 20:41:21] Info: Step 5/9 - Done loading spark symbols
+[12/23/2022 20:41:21] Info: Step 5/9 - Symbol Table Loading: COMPLETED
+[12/23/2022 20:41:21] Debug: TaskParam reportPath = /tmp/Output-de187562-8228-4d2b-8f90-7088f45fbd63/Reports/SparkSnowConvert
+[12/23/2022 20:41:21] Debug: TaskParam sqlRegExExtractionDictionary = [DELETE, \b(delete)(.*?)\b(from)\b], [INSERT, \b(insert)\b(.*?)\b(into)\b], [SELECT, (?i)(?s)\b(select)\b(.*?)\b(from)\b], [UPDATE, \b(update)\b(.*?)\b(set)\b]
+[12/23/2022 20:41:21] Debug: TaskParam projectId = Sources
+[12/23/2022 20:41:21] Debug: TaskParam inputPath = /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources
+[12/23/2022 20:41:21] Debug: TaskParam sessionId = 19d3de9e-07ad-4c53-b3e7-ad4f0157ed5a
+[12/23/2022 20:41:21] Debug: TaskParam sparkUsagesInventoryStorage = Mobilize.SparkSnow.Assessment.SparkUsagesInventoryStorage
+[12/23/2022 20:41:21] Debug: TaskParam importUsagesInventoryStorage = Mobilize.SparkSnow.Assessment.ImportUsagesInventoryStorage
+[12/23/2022 20:41:21] Debug: TaskParam sqlExtractionReportStorage = Mobilize.SparkSnow.Assessment.SqlExtractionReportStorage
+[12/23/2022 20:41:21] Debug: TaskParam packagesInventoryStorage = Mobilize.SparkCommon.Assessment.PackagesInventoryStorage
+[12/23/2022 20:41:21] Debug: TaskParam symbolTable = Mobilize.Scala.SymbolTable.SclSymbolTable
+[12/23/2022 20:41:21] Debug: TaskParam transformationVisitors = Value is not created.
+[12/23/2022 20:41:21] Debug: TaskParam mappingDictionaries = Mobilize.SparkCommon.TransformationCore.MappingDictionaries
+[12/23/2022 20:41:21] Debug: TaskParam conversionStatusData = Mobilize.SparkCommon.Assessment.ConversionStatus.ConversionStatusData
+[12/23/2022 20:41:21] Debug: TaskParam snowConvertCoreVersion = 1.0.111.0
+[12/23/2022 20:41:21] Debug: TaskParam matchByName = True
+[12/23/2022 20:41:21] Debug: TaskParam SparkUsagesInventoryTask.Input = /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources/input.wsp
+[12/23/2022 20:41:21] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[12/23/2022 20:41:21] Debug: TaskParam SparkUsagesInventoryTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[12/23/2022 20:41:21] Debug: TaskParam SparkUsagesInventoryTask.Enabled = True
+[12/23/2022 20:41:21] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[12/23/2022 20:41:21] Debug: TaskParam RepositoryDirectory = /tmp/Output-de187562-8228-4d2b-8f90-7088f45fbd63/.mobilize/CommonEF
+[12/23/2022 20:41:21] Info: Step 7/9 - Pre-Conversion Assessment: STARTED
+[12/23/2022 20:41:22] Info: Step 7/9 - Pre-Conversion Assessment: COMPLETED
+[12/23/2022 20:41:22] Debug: TaskParam ExecutionModeValue = Assessment
+[12/23/2022 20:41:22] Debug: TaskParam codeModelWriter = Mobilize.Common.AssessmentModel.Writer.CodeModelWriter
+[12/23/2022 20:41:22] Debug: TaskParam symbolTable = Mobilize.Scala.SymbolTable.SclSymbolTable
+[12/23/2022 20:41:22] Debug: TaskParam inputPath = /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources
+[12/23/2022 20:41:22] Debug: TaskParam outputPath = /tmp/Output-de187562-8228-4d2b-8f90-7088f45fbd63/Output/SparkSnowConvert
+[12/23/2022 20:41:22] Debug: TaskParam processingProgressDescriptor = Mobilize.Common.Utils.Progress.SingleProgressDescriptor
+[12/23/2022 20:41:22] Debug: TaskParam transformationVisitors = Artinsoft.Common.Tools.Transform.TransformationVisitors
+[12/23/2022 20:41:22] Debug: TaskParam conversionStatusData = Mobilize.SparkCommon.Assessment.ConversionStatus.ConversionStatusData
+[12/23/2022 20:41:22] Debug: TaskParam matchByName = True
+[12/23/2022 20:41:22] Debug: TaskParam projectId = Sources
+[12/23/2022 20:41:22] Debug: TaskParam TransformationsTask.Input = /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources/input.wsp
+[12/23/2022 20:41:22] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[12/23/2022 20:41:22] Debug: TaskParam TransformationsTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[12/23/2022 20:41:22] Debug: TaskParam TransformationsTask.Enabled = True
+[12/23/2022 20:41:22] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[12/23/2022 20:41:22] Debug: TaskParam RepositoryDirectory = /tmp/Output-de187562-8228-4d2b-8f90-7088f45fbd63/.mobilize/CommonEF
+[12/23/2022 20:41:22] Info: Step 8/9 - Conversion Execution: STARTED
+[12/23/2022 20:41:22] Info: Step 8/9 - Conversion Execution: COMPLETED
+[12/23/2022 20:41:22] Debug: TaskParam issuesReader = Mobilize.SparkCommon.Reports.IssuesReader
+[12/23/2022 20:41:22] Debug: TaskParam genericScannerReader = Mobilize.SparkSnow.Assessment.GenericScannerReader
+[12/23/2022 20:41:22] Debug: TaskParam initialTime = 12/23/2022 20:41:13
+[12/23/2022 20:41:22] Debug: TaskParam sparkUsagesInventoryStorage = Mobilize.SparkSnow.Assessment.SparkUsagesInventoryStorage
+[12/23/2022 20:41:22] Debug: TaskParam importUsagesInventoryStorage = Mobilize.SparkSnow.Assessment.ImportUsagesInventoryStorage
+[12/23/2022 20:41:22] Debug: TaskParam sqlExtractionReportStorage = Mobilize.SparkSnow.Assessment.SqlExtractionReportStorage
+[12/23/2022 20:41:22] Debug: TaskParam writeResultsProgressDescriptor = Mobilize.Common.Utils.Progress.SingleProgressDescriptor
+[12/23/2022 20:41:22] Debug: TaskParam inputPath = /tmp/Repo-de187562-8228-4d2b-8f90-7088f45fbd63/Sources
+[12/23/2022 20:41:22] Debug: TaskParam sparkSnowExecutionResult = Mobilize.SparkSnow.Configuration.Models.SparkSnowExecutionResult
+[12/23/2022 20:41:22] Debug: TaskParam assessmentReportSummaryInformation = Mobilize.SparkCommon.Reports.AssessmentReportSummaryInformation
+[12/23/2022 20:41:22] Debug: TaskParam assessmentManager = Mobilize.SparkCommon.Reports.AssessmentManager
+[12/23/2022 20:41:22] Debug: TaskParam usagesCalculator = Mobilize.SparkCommon.Reports.SparkUsagesCalculator
+[12/23/2022 20:41:22] Debug: TaskParam importsCalculator = Mobilize.SparkCommon.Reports.ImportUsagesCalculator
+[12/23/2022 20:41:22] Debug: TaskParam snowConvertCoreVersion = 1.0.111.0
+[12/23/2022 20:41:22] Debug: TaskParam sessionId = 19d3de9e-07ad-4c53-b3e7-ad4f0157ed5a
+[12/23/2022 20:41:22] Debug: TaskParam ConversionEndTask.Enabled = True
+[12/23/2022 20:41:22] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[12/23/2022 20:41:22] Debug: TaskParam RepositoryDirectory = /tmp/Output-de187562-8228-4d2b-8f90-7088f45fbd63/.mobilize/CommonEF
+[12/23/2022 20:41:22] Info: Step 9/9 - Cleanup: STARTED
+[12/23/2022 20:41:23] Info: EFProcess 638074248749128485 ended. Excecution time: 00:00:08.2961638
