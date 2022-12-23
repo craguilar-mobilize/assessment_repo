@@ -1,8 +1,8 @@
-Element,ProjectId,FileId,Count,Alias,Kind,Line,PackageName,SessionId,SnowConvertCoreVersion,SnowparkVersion
-org.apache.spark.sql.SparkSession,Sources,QT_Scala/src/main/scala/SessionDriver.scala,1,,,4,com.mobilize.spark,19d3de9e-07ad-4c53-b3e7-ad4f0157ed5a,1.0.111.0,1.6.2
-org.apache.spark.sql.DataFrame,Sources,QT_Scala/src/main/scala/SessionDriver.scala,1,,,4,com.mobilize.spark,19d3de9e-07ad-4c53-b3e7-ad4f0157ed5a,1.0.111.0,1.6.2
-org.apache.spark.sql.Column,Sources,QT_Scala/src/main/scala/Main.scala,1,,,5,com.mobilize.spark,19d3de9e-07ad-4c53-b3e7-ad4f0157ed5a,1.0.111.0,1.6.2
-com.mobilize.spark.Credentials,Sources,QT_Scala/src/main/scala/SessionDriver.scala,1,_,,3,com.mobilize.spark,19d3de9e-07ad-4c53-b3e7-ad4f0157ed5a,1.0.111.0,1.6.2
-org.apache.spark.sql.DataFrame,Sources,QT_Scala/src/main/scala/Main.scala,1,,,5,com.mobilize.spark,19d3de9e-07ad-4c53-b3e7-ad4f0157ed5a,1.0.111.0,1.6.2
-org.apache.spark.sql.types,Sources,QT_Scala/src/main/scala/Main.scala,1,_,,4,com.mobilize.spark,19d3de9e-07ad-4c53-b3e7-ad4f0157ed5a,1.0.111.0,1.6.2
-org.apache.spark.sql.functions,Sources,QT_Scala/src/main/scala/Main.scala,1,_,,3,com.mobilize.spark,19d3de9e-07ad-4c53-b3e7-ad4f0157ed5a,1.0.111.0,1.6.2
+Element,ProjectId,FileId,Count,Alias,Kind,Line,PackageName,Supported,Automated,Status,Statement,SessionId,SnowConvertCoreVersion,SnowparkVersion
+com.mobilize.spark.Credentials,[ch.epfl.scala]-[scala-demo],QT_Scala/src/main/scala/SessionDriver.scala,1,_,,3,com.mobilize.spark,False,,NotDefined,import com.mobilize.spark.Credentials._,1c888b23-dfd4-4b79-af8c-f38bbe5321b4,1.0.111.0,1.6.2
+org.apache.spark.sql.SparkSession,[ch.epfl.scala]-[scala-demo],QT_Scala/src/main/scala/SessionDriver.scala,1,,,4,com.mobilize.spark,True,,Direct,"import org.apache.spark.sql.{DataFrame, SparkSession}",1c888b23-dfd4-4b79-af8c-f38bbe5321b4,1.0.111.0,1.6.2
+org.apache.spark.sql.DataFrame,[ch.epfl.scala]-[scala-demo],QT_Scala/src/main/scala/SessionDriver.scala,1,,,4,com.mobilize.spark,True,,Direct,"import org.apache.spark.sql.{DataFrame, SparkSession}",1c888b23-dfd4-4b79-af8c-f38bbe5321b4,1.0.111.0,1.6.2
+org.apache.spark.sql.Column,[ch.epfl.scala]-[scala-demo],QT_Scala/src/main/scala/Main.scala,1,,,5,com.mobilize.spark,True,,Direct,"import org.apache.spark.sql.{Column, DataFrame}",1c888b23-dfd4-4b79-af8c-f38bbe5321b4,1.0.111.0,1.6.2
+org.apache.spark.sql.functions,[ch.epfl.scala]-[scala-demo],QT_Scala/src/main/scala/Main.scala,1,_,,3,com.mobilize.spark,True,,Rename,import org.apache.spark.sql.functions._,1c888b23-dfd4-4b79-af8c-f38bbe5321b4,1.0.111.0,1.6.2
+org.apache.spark.sql.types,[ch.epfl.scala]-[scala-demo],QT_Scala/src/main/scala/Main.scala,1,_,,4,com.mobilize.spark,True,,Rename,import org.apache.spark.sql.types._,1c888b23-dfd4-4b79-af8c-f38bbe5321b4,1.0.111.0,1.6.2
+org.apache.spark.sql.DataFrame,[ch.epfl.scala]-[scala-demo],QT_Scala/src/main/scala/Main.scala,1,,,5,com.mobilize.spark,True,,Direct,"import org.apache.spark.sql.{Column, DataFrame}",1c888b23-dfd4-4b79-af8c-f38bbe5321b4,1.0.111.0,1.6.2

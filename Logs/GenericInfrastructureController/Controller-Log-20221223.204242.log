@@ -1,0 +1,31 @@
+[12/23/2022 20:42:42] Debug: Session id: 1c888b23-dfd4-4b79-af8c-f38bbe5321b4
+[12/23/2022 20:42:42] Debug: Code Processor information: Name :SparkSnowConvert, Version: 1.0.111.0
+[12/23/2022 20:42:44] Debug: Getting license
+[12/23/2022 20:42:44] Debug: License information
+	Status: Failed
+	Message: No active license available.
+[12/23/2022 20:42:44] Info: Starting to validate parameters
+[12/23/2022 20:42:44] Info: Parameters to validate: 
+	Execution mode: Conversion
+	MatchByName: true
+	LICENSE_KEY: 01c039c6-ff84-46fa-9c82-0e83eb40e821
+[12/23/2022 20:42:44] Info: Validation of parameters: Success
+[12/23/2022 20:42:44] Debug: Getting code descriptor
+[12/23/2022 20:42:44] Debug: Code descriptor information
+	Units: 3969
+	Units type: LOC
+	All file bytes: 157786
+	All found extensions: .scala
+[12/23/2022 20:42:44] Debug: Calculating fingerprint
+[12/23/2022 20:42:44] Debug: Fingerprint information Fingerprint(size=157786,projects=1)
+[12/23/2022 20:42:44] Info: Starting to try to validate online license for execution
+[12/23/2022 20:42:46] Debug: Getting license
+[12/23/2022 20:42:46] Debug: License information
+	Status: Failed
+	Message: No active license available.
+[12/23/2022 20:42:46] Debug: Starting the execution of the controller
+[12/23/2022 20:42:47] Debug: Executing the worker: GenericScanner
+[12/23/2022 20:42:48] Debug: Finished executing the worker: GenericScanner
+[12/23/2022 20:42:49] Debug: Executing the worker: SparkSnowConvert
+[12/23/2022 20:43:00] Debug: Finished executing the worker: SparkSnowConvert
+[12/23/2022 20:43:01] Info: Controller execution ended
